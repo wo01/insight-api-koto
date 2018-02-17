@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-zcash",
-  "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api-koto",
+  "description": "A Koto blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/str4d/insight-api-zcash.git",
+  "repository": "git://github.com/wo01/insight-api-koto.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -39,18 +39,22 @@
     {
       "name": "Jack Grigg",
       "email": "jack@z.cash"
+    },
+    {
+      "name": "WO",
+      "email": "wo@kotocoin.info"
     }
   ],
   "bugs": {
-    "url": "https://github.com/str4d/insight-api-zcash/issues"
+    "url": "https://github.com/wo01/insight-api-koto/issues"
   },
-  "homepage": "https://github.com/str4d/insight-api-zcash",
+  "homepage": "https://github.com/wo01/insight-api-koto",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "zcash api",
+    "koto api",
     "blockchain api",
     "json",
     "bitcore"
@@ -65,8 +69,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zcash": "str4d/bitcore-lib-zcash",
-    "bitcore-message-zcash": "str4d/bitcore-message-zcash",
+    "bitcore-lib-koto": "wo01/bitcore-lib-koto",
+    "bitcore-message-koto": "wo01/bitcore-message-koto",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
