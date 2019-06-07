@@ -68,7 +68,7 @@
   "main": "lib",
   "bitcoreNode": "lib",
   "dependencies": {
-    "async": "*",
+    "async": "^2.6.2
     "bitcore-lib-koto": "wo01/bitcore-lib-koto",
     "bitcore-message-koto": "wo01/bitcore-message-koto",
     "body-parser": "^1.13.3",
